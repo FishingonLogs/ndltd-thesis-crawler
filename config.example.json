@@ -1,0 +1,9 @@
+{
+  "delay_min": 2.0,
+  "delay_max": 5.0,
+  "max_retries": 3,
+  "db_path": "ndltd.db",
+  "headless": true,
+  "output_dir": "output",
+  "auto_export": true
+}

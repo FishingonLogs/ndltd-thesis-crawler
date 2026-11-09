@@ -1,0 +1,44 @@
+# Claude Code local settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Scraper output
+*.db
+ndltd.db
+output/
+thesis_metadata0*.csv
+
+# 使用者本機執行設定
+config.json
+
+# Recon 產物（fixture 已複製到 tests/fixtures/）
+範例/advanced_search.html
+
+# 發佈打包輸出
+dist/
+
+# Recon 資產（搜尋結果頁 reference；所需 fixture 已存於 tests/fixtures/）
+範例/*論文查詢*
+
+# 暫存探測腳本
+_probe*.py
+_probe*.txt
+_login_probe.html
+verify_live.py
+capture_login.py
+*_out.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# PyInstaller 建置中間檔
+build/
+build_pw/
+*.spec
